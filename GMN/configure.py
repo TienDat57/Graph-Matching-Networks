@@ -12,7 +12,7 @@ def get_default_config():
         node_hidden_sizes=[node_state_dim * 2],
         n_prop_layers=5,
         # set to False to not share parameters across message passing layers
-        share_prop_params=True,
+        share_prop_params=False,
         # initialize message MLP with small parameter weights to prevent
         # aggregated message vectors blowing up, alternatively we could also use
         # e.g. layer normalization to keep the scale of these under control.
