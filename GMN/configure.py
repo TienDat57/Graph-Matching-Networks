@@ -1,6 +1,6 @@
 def get_default_config():
     """The default configs."""
-    model_type = 'embedding'
+    model_type = 'matching'
     # Set to `embedding` to use the graph embedding net.
     node_state_dim = 32
     edge_state_dim = 16
@@ -10,7 +10,7 @@ def get_default_config():
         edge_state_dim=edge_state_dim,
         edge_hidden_sizes=[node_state_dim * 2, node_state_dim * 2],
         node_hidden_sizes=[node_state_dim * 2],
-        n_prop_layers=7,
+        n_prop_layers=5,
         # set to False to not share parameters across message passing layers
         share_prop_params=True,
         # initialize message MLP with small parameter weights to prevent
@@ -18,7 +18,7 @@ def get_default_config():
         # e.g. layer normalization to keep the scale of these under control.
         edge_net_init_scale=0.1,
         # other types of update like `mlp` and `residual` can also be used here. gru
-        node_update_type='gru',
+        node_update_type='residual',
         # set to False if your graph already contains edges in both directions.
         use_reverse_direction=True,
         # set to True if your graph is directed
