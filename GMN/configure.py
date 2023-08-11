@@ -18,7 +18,7 @@ def get_default_config():
         # e.g. layer normalization to keep the scale of these under control.
         edge_net_init_scale=0.1,
         # other types of update like `mlp` and `residual` can also be used here. gru
-        node_update_type='residual',
+        node_update_type='gru',
         # set to False if your graph already contains edges in both directions.
         use_reverse_direction=True,
         # set to True if your graph is directed
