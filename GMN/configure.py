@@ -1,6 +1,6 @@
 def get_default_config():
     """The default configs."""
-    model_type = 'matching'
+    model_type = 'embedding'
     # Set to `embedding` to use the graph embedding net.
     node_state_dim = 32
     edge_state_dim = 16
@@ -10,7 +10,7 @@ def get_default_config():
         edge_state_dim=edge_state_dim,
         edge_hidden_sizes=[node_state_dim * 2, node_state_dim * 2],
         node_hidden_sizes=[node_state_dim * 2],
-        n_prop_layers=5,
+        n_prop_layers=3,
         # set to False to not share parameters across message passing layers
         share_prop_params=True,
         # initialize message MLP with small parameter weights to prevent
@@ -54,9 +54,9 @@ def get_default_config():
                 validation_dataset_size=1000)),
         training=dict(
             batch_size=20,
-            learning_rate=1e-4,
+            learning_rate=1e-3,
             mode='pair',
-            loss='margin',  # other: hamming
+            loss='hamming',  # other: hamming
             margin=1.0,
             # A small regularizer on the graph vector scales to avoid the graph
             # vectors blowing up.  If numerical issues is particularly bad in the
@@ -67,7 +67,7 @@ def get_default_config():
             # Add gradient clipping to avoid large gradients.
             clip_value=10.0,
             # Increase this to train longer.
-            n_training_steps=500000,
+            n_training_steps=100000,
             # Print training information every this many training steps.
             print_after=100,
             # Evaluate on validation set every `eval_after * print_after` steps.

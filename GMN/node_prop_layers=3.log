@@ -1,0 +1,1125 @@
+12.6s 1 [IPKernelApp] WARNING | Error in loading extension: bq_stats
+12.6s 2 Check your config files in /root/.ipython/profile_default
+12.6s 3 Traceback (most recent call last):
+12.6s 4 File "/opt/conda/lib/python3.10/site-packages/IPython/core/shellapp.py", line 282, in init_extensions
+12.6s 5 self.shell.extension_manager.load_extension(ext)
+12.6s 6 File "/opt/conda/lib/python3.10/site-packages/IPython/core/extensions.py", line 76, in load_extension
+12.6s 7 return self._load_extension(module_str)
+12.6s 8 File "/opt/conda/lib/python3.10/site-packages/IPython/core/extensions.py", line 91, in _load_extension
+12.6s 9 mod = import_module(module_str)
+12.6s 10 File "/opt/conda/lib/python3.10/importlib/__init__.py", line 126, in import_module
+12.6s 11 return _bootstrap._gcd_import(name[level:], package, level)
+12.6s 12 File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+12.6s 13 File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+12.6s 14 File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+12.6s 15 ModuleNotFoundError: No module named 'bq_stats'
+14.4s 16 Cloning into 'Graph-Matching-Networks'...
+15.5s 17 remote: Enumerating objects: 184, done.[K
+15.5s 18 remote: Counting objects:   4% (1/25)[Kremote: Counting objects:   8% (2/25)[Kremote: Counting objects:  12% (3/25)[Kremote: Counting objects:  16% (4/25)[Kremote: Counting objects:  20% (5/25)[Kremote: Counting objects:  24% (6/25)[Kremote: Counting objects:  28% (7/25)[Kremote: Counting objects:  32% (8/25)[Kremote: Counting objects:  36% (9/25)[Kremote: Counting objects:  40% (10/25)[Kremote: Counting objects:  44% (11/25)[Kremote: Counting objects:  48% (12/25)[Kremote: Counting objects:  52% (13/25)[Kremote: Counting objects:  56% (14/25)[Kremote: Counting objects:  60% (15/25)[Kremote: Counting objects:  64% (16/25)[Kremote: Counting objects:  68% (17/25)[Kremote: Counting objects:  72% (18/25)[Kremote: Counting objects:  76% (19/25)[Kremote: Counting objects:  80% (20/25)[Kremote: Counting objects:  84% (21/25)[Kremote: Counting objects:  88% (22/25)[Kremote: Counting objects:  92% (23/25)[Kremote: Counting objects:  96% (24/25)[Kremote: Counting objects: 100% (25/25)[Kremote: Counting objects: 100% (25/25), done.[K
+15.5s 19 remote: Compressing objects:   4% (1/24)[Kremote: Compressing objects:   8% (2/24)[Kremote: Compressing objects:  12% (3/24)[Kremote: Compressing objects:  16% (4/24)[Kremote: Compressing objects:  20% (5/24)[Kremote: Compressing objects:  25% (6/24)[Kremote: Compressing objects:  29% (7/24)[Kremote: Compressing objects:  33% (8/24)[Kremote: Compressing objects:  37% (9/24)[Kremote: Compressing objects:  41% (10/24)[Kremote: Compressing objects:  45% (11/24)[Kremote: Compressing objects:  50% (12/24)[Kremote: Compressing objects:  54% (13/24)[Kremote: Compressing objects:  58% (14/24)[Kremote: Compressing objects:  62% (15/24)[Kremote: Compressing objects:  66% (16/24)[Kremote: Compressing objects:  70% (17/24)[Kremote: Compressing objects:  75% (18/24)[Kremote: Compressing objects:  79% (19/24)[Kremote: Compressing objects:  83% (20/24)[Kremote: Compressing objects:  87% (21/24)[Kremote: Compressing objects:  91% (22/24)[Kremote: Compressing objects:  95% (23/24)[Kremote: Compressing objects: 100% (24/24)[Kremote: Compressing objects: 100% (24/24), done.[K
+16.5s 20 Receiving objects:   0% (1/184)Receiving objects:   1% (2/184)Receiving objects:   2% (4/184)Receiving objects:   3% (6/184)Receiving objects:   4% (8/184)Receiving objects:   5% (10/184)Receiving objects:   6% (12/184)Receiving objects:   7% (13/184)Receiving objects:   8% (15/184)Receiving objects:   9% (17/184)Receiving objects:  10% (19/184)Receiving objects:  11% (21/184)Receiving objects:  12% (23/184)Receiving objects:  13% (24/184)Receiving objects:  14% (26/184)Receiving objects:  15% (28/184)Receiving objects:  16% (30/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  17% (32/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  18% (34/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  19% (35/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  20% (37/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  21% (39/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  22% (41/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  23% (43/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  24% (45/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  25% (46/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  26% (48/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  27% (50/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  28% (52/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  29% (54/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  30% (56/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  31% (58/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  32% (59/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  33% (61/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  34% (63/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  35% (65/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  36% (67/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  37% (69/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  38% (70/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  39% (72/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  40% (74/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  41% (76/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  42% (78/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  43% (80/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  44% (81/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  45% (83/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  46% (85/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  47% (87/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  48% (89/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  49% (91/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  50% (92/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  51% (94/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  52% (96/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  53% (98/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  54% (100/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  55% (102/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  56% (104/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  57% (105/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  58% (107/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  59% (109/184), 8.50 MiB | 16.98 MiB/sremote: Total 184 (delta 7), reused 5 (delta 1), pack-reused 159[K
+16.5s 21 Receiving objects:  60% (111/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  61% (113/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  62% (115/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  63% (116/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  64% (118/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  65% (120/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  66% (122/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  67% (124/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  68% (126/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  69% (127/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  70% (129/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  71% (131/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  72% (133/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  73% (135/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  74% (137/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  75% (138/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  76% (140/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  77% (142/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  78% (144/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  79% (146/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  80% (148/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  81% (150/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  82% (151/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  83% (153/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  84% (155/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  85% (157/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  86% (159/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  87% (161/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  88% (162/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  89% (164/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  90% (166/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  91% (168/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  92% (170/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  93% (172/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  94% (173/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  95% (175/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  96% (177/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  97% (179/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  98% (181/184), 8.50 MiB | 16.98 MiB/sReceiving objects:  99% (183/184), 8.50 MiB | 16.98 MiB/sReceiving objects: 100% (184/184), 8.50 MiB | 16.98 MiB/sReceiving objects: 100% (184/184), 20.21 MiB | 20.80 MiB/s, done.
+16.5s 22 Resolving deltas:   0% (0/49)Resolving deltas:   2% (1/49)Resolving deltas:   4% (2/49)Resolving deltas:   6% (3/49)Resolving deltas:   8% (4/49)Resolving deltas:  10% (5/49)Resolving deltas:  12% (6/49)Resolving deltas:  14% (7/49)Resolving deltas:  18% (9/49)Resolving deltas:  20% (10/49)Resolving deltas:  22% (11/49)Resolving deltas:  24% (12/49)Resolving deltas:  26% (13/49)Resolving deltas:  28% (14/49)Resolving deltas:  30% (15/49)Resolving deltas:  32% (16/49)Resolving deltas:  34% (17/49)Resolving deltas:  36% (18/49)Resolving deltas:  38% (19/49)Resolving deltas:  40% (20/49)Resolving deltas:  42% (21/49)Resolving deltas:  44% (22/49)Resolving deltas:  46% (23/49)Resolving deltas:  48% (24/49)Resolving deltas:  51% (25/49)Resolving deltas:  53% (26/49)Resolving deltas:  55% (27/49)Resolving deltas:  57% (28/49)Resolving deltas:  59% (29/49)Resolving deltas:  61% (30/49)Resolving deltas:  63% (31/49)Resolving deltas:  65% (32/49)Resolving deltas:  67% (33/49)Resolving deltas:  69% (34/49)Resolving deltas:  71% (35/49)Resolving deltas:  73% (36/49)Resolving deltas:  75% (37/49)Resolving deltas:  77% (38/49)Resolving deltas:  79% (39/49)Resolving deltas:  81% (40/49)Resolving deltas:  83% (41/49)Resolving deltas:  85% (42/49)Resolving deltas:  87% (43/49)Resolving deltas:  89% (44/49)Resolving deltas:  91% (45/49)Resolving deltas:  93% (46/49)Resolving deltas:  95% (47/49)Resolving deltas:  97% (48/49)Resolving deltas: 100% (49/49)Resolving deltas: 100% (49/49), done.
+17.5s 23 Graph-Matching-Networks  __notebook__.ipynb
+17.6s 24 /kaggle/working/Graph-Matching-Networks
+18.5s 25 COMMON	GMN  LICENSE  README.md
+18.6s 26 /kaggle/working/Graph-Matching-Networks/GMN
+19.5s 27 README.md     evaluation.py		loss.py     train.py
+19.5s 28 configure.py  graphembeddingnetwork.py	run.sh	    utils.py
+19.5s 29 dataset.py    graphmatchingnetwork.py	segment.py
+21.4s 30 def get_default_config():
+21.4s 31 """The default configs."""
+21.4s 32 model_type = 'matching'
+21.4s 33 # Set to `embedding` to use the graph embedding net.
+21.4s 34 node_state_dim = 32
+21.4s 35 edge_state_dim = 16 # FIXED FROM THE PAPER
+21.4s 36 graph_rep_dim = 128 # FIXED FROM THE PAPER
+21.4s 37 graph_embedding_net_config = dict(
+21.4s 38 node_state_dim=node_state_dim,
+21.4s 39 edge_state_dim=edge_state_dim,
+21.4s 40 edge_hidden_sizes=[node_state_dim * 2, node_state_dim * 2],
+21.4s 41 node_hidden_sizes=[node_state_dim * 2],
+21.4s 42 n_prop_layers=3,
+21.4s 43 # set to False to not share parameters across message passing layers
+21.4s 44 share_prop_params=True,
+21.4s 45 # initialize message MLP with small parameter weights to prevent
+21.4s 46 # aggregated message vectors blowing up, alternatively we could also use
+21.4s 47 # e.g. layer normalization to keep the scale of these under control.
+21.4s 48 edge_net_init_scale=0.1,
+21.4s 49 # other types of update like `mlp` and `residual` can also be used here. gru
+21.4s 50 node_update_type='gru',
+21.4s 51 # set to False if your graph already contains edges in both directions.
+21.4s 52 use_reverse_direction=True,
+21.4s 53 # set to True if your graph is directed
+21.4s 54 reverse_dir_param_different=False,
+21.4s 55 # we didn't use layer norm in our experiments but sometimes this can help.
+21.4s 56 layer_norm=False,
+21.4s 57 # set to `embedding` to use the graph embedding net.
+21.4s 58 prop_type=model_type)
+21.4s 59 graph_matching_net_config = graph_embedding_net_config.copy()
+21.4s 60 graph_matching_net_config['similarity'] = 'dotproduct'  # other: euclidean, cosine
+21.4s 61 return dict(
+21.4s 62 encoder=dict(
+21.4s 63 node_hidden_sizes=[node_state_dim],
+21.4s 64 node_feature_dim=1,
+21.4s 65 edge_hidden_sizes=[edge_state_dim]),
+21.4s 66 aggregator=dict(
+21.4s 67 node_hidden_sizes=[graph_rep_dim],
+21.4s 68 graph_transform_sizes=[graph_rep_dim],
+21.4s 69 input_size=[node_state_dim],
+21.4s 70 gated=True,
+21.4s 71 aggregation_type='sum'),
+21.4s 72 graph_embedding_net=graph_embedding_net_config,
+21.4s 73 graph_matching_net=graph_matching_net_config,
+21.4s 74 model_type=model_type,
+21.4s 75 data=dict(
+21.4s 76 problem='graph_edit_distance',
+21.4s 77 dataset_params=dict(
+21.4s 78 # always generate graphs with 20 nodes and p_edge=0.2.
+21.4s 79 n_nodes_range=[20, 20], # TRY MANY DIFFERENT RANGE ACCORDING TO THE
+21.4s 80 p_edge_range=[0.2, 0.2],
+21.4s 81 n_changes_positive=1,
+21.4s 82 n_changes_negative=2,
+21.4s 83 validation_dataset_size=1000)),
+21.4s 84 training=dict(
+21.4s 85 batch_size=20,
+21.4s 86 learning_rate=1e-3,
+21.4s 87 mode='pair',
+21.4s 88 loss='hamming',  # other: hamming # WE FIXED THIS
+21.4s 89 margin=1.0,
+21.4s 90 # A small regularizer on the graph vector scales to avoid the graph
+21.4s 91 # vectors blowing up.  If numerical issues is particularly bad in the
+21.4s 92 # model we can add `snt.LayerNorm` to the outputs of each layer, the
+21.4s 93 # aggregated messages and aggregated node representations to
+21.4s 94 # keep the network activation scale in a reasonable range.
+21.4s 95 graph_vec_regularizer_weight=1e-6,
+21.4s 96 # Add gradient clipping to avoid large gradients.
+21.4s 97 clip_value=10.0,
+21.4s 98 # Increase this to train longer.
+21.4s 99 n_training_steps=100000,
+21.4s 100 # Print training information every this many training steps.
+21.4s 101 print_after=100,
+21.4s 102 # Evaluate on validation set every `eval_after * print_after` steps.
+21.4s 103 eval_after=10),
+21.4s 104 evaluation=dict(
+21.4s 105 batch_size=20),
+21.4s 106 seed=8,
+28.8s 107 )encoder= {'node_hidden_sizes': [32], 'node_feature_dim': 1, 'edge_hidden_sizes': [16]}
+28.8s 108 aggregator= {'node_hidden_sizes': [128], 'graph_transform_sizes': [128], 'input_size': [32], 'gated': True, 'aggregation_type': 'sum'}
+28.8s 109 graph_embedding_net= {'node_state_dim': 32, 'edge_state_dim': 16, 'edge_hidden_sizes': [64, 64], 'node_hidden_sizes': [64], 'n_prop_layers': 3, 'share_prop_params': True, 'edge_net_init_scale': 0.1, 'node_update_type': 'gru', 'use_reverse_direction': True, 'reverse_dir_param_different': False, 'layer_norm': False, 'prop_type': 'matching'}
+28.8s 110 graph_matching_net= {'node_state_dim': 32, 'edge_state_dim': 16, 'edge_hidden_sizes': [64, 64], 'node_hidden_sizes': [64], 'n_prop_layers': 3, 'share_prop_params': True, 'edge_net_init_scale': 0.1, 'node_update_type': 'gru', 'use_reverse_direction': True, 'reverse_dir_param_different': False, 'layer_norm': False, 'prop_type': 'matching', 'similarity': 'dotproduct'}
+28.8s 111 model_type= matching
+28.8s 112 data= {'problem': 'graph_edit_distance', 'dataset_params': {'n_nodes_range': [20, 20], 'p_edge_range': [0.2, 0.2], 'n_changes_positive': 1, 'n_changes_negative': 2, 'validation_dataset_size': 1000}}
+28.8s 113 training= {'batch_size': 20, 'learning_rate': 0.001, 'mode': 'pair', 'loss': 'hamming', 'margin': 1.0, 'graph_vec_regularizer_weight': 1e-06, 'clip_value': 10.0, 'n_training_steps': 100000, 'print_after': 100, 'eval_after': 10}
+28.8s 114 evaluation= {'batch_size': 20}
+28.8s 115 seed= 8
+37.0s 116 iter 100, loss 0.3382, sim_pos 0.4500, sim_neg 0.4492, sim_diff 0.0008, time 8.18s
+45.3s 117 iter 200, loss 0.2504, sim_pos 0.4023, sim_neg 0.3930, sim_diff 0.0094, time 8.29s
+53.3s 118 iter 300, loss 0.2496, sim_pos 0.4414, sim_neg 0.4516, sim_diff -0.0102, time 8.01s
+61.2s 119 iter 400, loss 0.2501, sim_pos 0.4852, sim_neg 0.4906, sim_diff -0.0055, time 7.83s
+69.1s 120 iter 500, loss 0.2499, sim_pos 0.5320, sim_neg 0.5320, sim_diff 0.0000, time 7.97s
+77.5s 121 iter 600, loss 0.2500, sim_pos 0.4414, sim_neg 0.4383, sim_diff 0.0031, time 8.34s
+85.4s 122 iter 700, loss 0.2501, sim_pos 0.4672, sim_neg 0.4766, sim_diff -0.0094, time 7.95s
+93.2s 123 iter 800, loss 0.2516, sim_pos 0.4344, sim_neg 0.4336, sim_diff 0.0008, time 7.76s
+101.0s 124 iter 900, loss 0.2500, sim_pos 0.5250, sim_neg 0.5250, sim_diff 0.0000, time 7.80s
+115.6s 125 iter 1000, loss 0.2507, sim_pos 0.4836, sim_neg 0.4914, sim_diff -0.0078, val/pair_auc 0.5314, val/triplet_acc 0.0490, time 14.67s
+123.5s 126 iter 1100, loss 0.2496, sim_pos 0.4953, sim_neg 0.4992, sim_diff -0.0039, time 7.89s
+131.3s 127 iter 1200, loss 0.2502, sim_pos 0.5078, sim_neg 0.5086, sim_diff -0.0008, time 7.78s
+139.5s 128 iter 1300, loss 0.2498, sim_pos 0.5180, sim_neg 0.5164, sim_diff 0.0016, time 8.16s
+147.7s 129 iter 1400, loss 0.2500, sim_pos 0.4594, sim_neg 0.4516, sim_diff 0.0078, time 8.26s
+156.1s 130 iter 1500, loss 0.2500, sim_pos 0.4734, sim_neg 0.4539, sim_diff 0.0195, time 8.32s
+165.0s 131 iter 1600, loss 0.2511, sim_pos 0.5305, sim_neg 0.5297, sim_diff 0.0008, time 9.01s
+177.7s 132 iter 1700, loss 0.2500, sim_pos 0.5406, sim_neg 0.5391, sim_diff 0.0016, time 12.65s
+192.8s 133 iter 1800, loss 0.2501, sim_pos 0.5805, sim_neg 0.5758, sim_diff 0.0047, time 15.10s
+209.4s 134 iter 1900, loss 0.2500, sim_pos 0.5328, sim_neg 0.5281, sim_diff 0.0047, time 16.60s
+231.6s 135 iter 2000, loss 0.2500, sim_pos 0.5352, sim_neg 0.5359, sim_diff -0.0008, val/pair_auc 0.5215, val/triplet_acc 0.2180, time 22.21s
+248.9s 136 iter 2100, loss 0.2500, sim_pos 0.5102, sim_neg 0.5117, sim_diff -0.0016, time 17.23s
+266.3s 137 iter 2200, loss 0.2499, sim_pos 0.4945, sim_neg 0.4891, sim_diff 0.0055, time 17.42s
+284.1s 138 iter 2300, loss 0.2499, sim_pos 0.5188, sim_neg 0.5180, sim_diff 0.0008, time 17.83s
+302.4s 139 iter 2400, loss 0.2501, sim_pos 0.4500, sim_neg 0.4406, sim_diff 0.0094, time 18.31s
+319.8s 140 iter 2500, loss 0.2500, sim_pos 0.4758, sim_neg 0.4758, sim_diff 0.0000, time 17.35s
+338.0s 141 iter 2600, loss 0.2499, sim_pos 0.5219, sim_neg 0.5234, sim_diff -0.0016, time 18.20s
+355.7s 142 iter 2700, loss 0.2500, sim_pos 0.4406, sim_neg 0.4461, sim_diff -0.0055, time 17.68s
+375.3s 143 iter 2800, loss 0.2500, sim_pos 0.4883, sim_neg 0.4750, sim_diff 0.0133, time 19.69s
+395.7s 144 iter 2900, loss 0.2500, sim_pos 0.4789, sim_neg 0.4727, sim_diff 0.0062, time 20.42s
+423.3s 145 iter 3000, loss 0.2500, sim_pos 0.4563, sim_neg 0.4477, sim_diff 0.0086, val/pair_auc 0.5211, val/triplet_acc 0.2070, time 27.55s
+444.2s 146 iter 3100, loss 0.2500, sim_pos 0.5227, sim_neg 0.5195, sim_diff 0.0031, time 20.90s
+465.7s 147 iter 3200, loss 0.2495, sim_pos 0.5070, sim_neg 0.5070, sim_diff 0.0000, time 21.55s
+487.1s 148 iter 3300, loss 0.2506, sim_pos 0.4789, sim_neg 0.4805, sim_diff -0.0016, time 21.29s
+508.7s 149 iter 3400, loss 0.2500, sim_pos 0.4758, sim_neg 0.4805, sim_diff -0.0047, time 21.62s
+530.4s 150 iter 3500, loss 0.2500, sim_pos 0.5906, sim_neg 0.5852, sim_diff 0.0055, time 21.68s
+552.0s 151 iter 3600, loss 0.2500, sim_pos 0.5008, sim_neg 0.5008, sim_diff 0.0000, time 21.68s
+574.1s 152 iter 3700, loss 0.2500, sim_pos 0.5195, sim_neg 0.5227, sim_diff -0.0031, time 22.11s
+595.8s 153 iter 3800, loss 0.2499, sim_pos 0.5141, sim_neg 0.5148, sim_diff -0.0008, time 21.64s
+617.4s 154 iter 3900, loss 0.2500, sim_pos 0.5734, sim_neg 0.5750, sim_diff -0.0016, time 21.65s
+648.1s 155 iter 4000, loss 0.2500, sim_pos 0.5477, sim_neg 0.5469, sim_diff 0.0008, val/pair_auc 0.5201, val/triplet_acc 0.2380, time 30.63s
+670.0s 156 iter 4100, loss 0.2501, sim_pos 0.4563, sim_neg 0.4586, sim_diff -0.0023, time 21.96s
+692.2s 157 iter 4200, loss 0.2500, sim_pos 0.5883, sim_neg 0.5891, sim_diff -0.0008, time 22.20s
+714.3s 158 iter 4300, loss 0.2500, sim_pos 0.4898, sim_neg 0.4953, sim_diff -0.0055, time 22.15s
+736.2s 159 iter 4400, loss 0.2500, sim_pos 0.5133, sim_neg 0.5148, sim_diff -0.0016, time 21.86s
+758.1s 160 iter 4500, loss 0.2497, sim_pos 0.4555, sim_neg 0.4625, sim_diff -0.0070, time 21.84s
+780.0s 161 iter 4600, loss 0.2500, sim_pos 0.5430, sim_neg 0.5445, sim_diff -0.0016, time 21.93s
+801.6s 162 iter 4700, loss 0.2500, sim_pos 0.4781, sim_neg 0.4734, sim_diff 0.0047, time 21.66s
+823.7s 163 iter 4800, loss 0.2497, sim_pos 0.5008, sim_neg 0.5055, sim_diff -0.0047, time 22.04s
+846.5s 164 iter 4900, loss 0.2499, sim_pos 0.5211, sim_neg 0.5133, sim_diff 0.0078, time 22.82s
+880.4s 165 iter 5000, loss 0.2500, sim_pos 0.4977, sim_neg 0.5008, sim_diff -0.0031, val/pair_auc 0.5506, val/triplet_acc 0.3350, time 33.89s
+903.7s 166 iter 5100, loss 0.2498, sim_pos 0.4695, sim_neg 0.4688, sim_diff 0.0008, time 23.28s
+927.6s 167 iter 5200, loss 0.2500, sim_pos 0.5336, sim_neg 0.5297, sim_diff 0.0039, time 23.95s
+950.9s 168 iter 5300, loss 0.2500, sim_pos 0.5797, sim_neg 0.5695, sim_diff 0.0102, time 23.33s
+975.6s 169 iter 5400, loss 0.2500, sim_pos 0.4289, sim_neg 0.4531, sim_diff -0.0242, time 24.61s
+999.3s 170 iter 5500, loss 0.2500, sim_pos 0.5281, sim_neg 0.5289, sim_diff -0.0008, time 23.77s
+1024.3s 171 iter 5600, loss 0.2500, sim_pos 0.5328, sim_neg 0.5125, sim_diff 0.0203, time 24.93s
+1048.5s 172 iter 5700, loss 0.2500, sim_pos 0.5578, sim_neg 0.5555, sim_diff 0.0023, time 24.22s
+1073.2s 173 iter 5800, loss 0.2500, sim_pos 0.5188, sim_neg 0.5203, sim_diff -0.0016, time 24.72s
+1097.0s 174 iter 5900, loss 0.2500, sim_pos 0.4883, sim_neg 0.4852, sim_diff 0.0031, time 23.81s
+1131.7s 175 iter 6000, loss 0.2500, sim_pos 0.4578, sim_neg 0.4656, sim_diff -0.0078, val/pair_auc 0.5614, val/triplet_acc 0.3860, time 34.71s
+1154.1s 176 iter 6100, loss 0.2500, sim_pos 0.5297, sim_neg 0.5312, sim_diff -0.0016, time 22.38s
+1176.5s 177 iter 6200, loss 0.2500, sim_pos 0.4820, sim_neg 0.4820, sim_diff 0.0000, time 22.36s
+1200.0s 178 iter 6300, loss 0.2500, sim_pos 0.4805, sim_neg 0.4789, sim_diff 0.0016, time 23.58s
+1220.7s 179 iter 6400, loss 0.2500, sim_pos 0.5344, sim_neg 0.5305, sim_diff 0.0039, time 20.69s
+1240.1s 180 iter 6500, loss 0.2499, sim_pos 0.4156, sim_neg 0.4094, sim_diff 0.0062, time 19.38s
+1259.5s 181 iter 6600, loss 0.2505, sim_pos 0.5227, sim_neg 0.5211, sim_diff 0.0016, time 19.37s
+1279.7s 182 iter 6700, loss 0.2500, sim_pos 0.4898, sim_neg 0.4727, sim_diff 0.0172, time 20.25s
+1299.9s 183 iter 6800, loss 0.2500, sim_pos 0.5391, sim_neg 0.5391, sim_diff 0.0000, time 20.15s
+1320.3s 184 iter 6900, loss 0.2500, sim_pos 0.5203, sim_neg 0.5203, sim_diff 0.0000, time 20.44s
+1354.4s 185 iter 7000, loss 0.2500, sim_pos 0.4758, sim_neg 0.4703, sim_diff 0.0055, val/pair_auc 0.5373, val/triplet_acc 0.2910, time 34.08s
+1376.3s 186 iter 7100, loss 0.2500, sim_pos 0.5266, sim_neg 0.5211, sim_diff 0.0055, time 21.93s
+1397.6s 187 iter 7200, loss 0.2500, sim_pos 0.5047, sim_neg 0.5031, sim_diff 0.0016, time 21.23s
+1418.3s 188 iter 7300, loss 0.2501, sim_pos 0.4734, sim_neg 0.4727, sim_diff 0.0008, time 20.71s
+1438.5s 189 iter 7400, loss 0.2500, sim_pos 0.4523, sim_neg 0.4680, sim_diff -0.0156, time 20.19s
+1456.7s 190 iter 7500, loss 0.2500, sim_pos 0.4594, sim_neg 0.4609, sim_diff -0.0016, time 18.28s
+1474.7s 191 iter 7600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5672, sim_diff -0.0047, time 17.96s
+1493.1s 192 iter 7700, loss 0.2500, sim_pos 0.4563, sim_neg 0.4531, sim_diff 0.0031, time 18.41s
+1512.0s 193 iter 7800, loss 0.2511, sim_pos 0.5227, sim_neg 0.5234, sim_diff -0.0008, time 18.90s
+1530.4s 194 iter 7900, loss 0.2500, sim_pos 0.4906, sim_neg 0.4945, sim_diff -0.0039, time 18.42s
+1559.9s 195 iter 8000, loss 0.2500, sim_pos 0.4641, sim_neg 0.4641, sim_diff 0.0000, val/pair_auc 0.5288, val/triplet_acc 0.2120, time 29.50s
+1578.8s 196 iter 8100, loss 0.2500, sim_pos 0.4891, sim_neg 0.4883, sim_diff 0.0008, time 18.87s
+1598.8s 197 iter 8200, loss 0.2500, sim_pos 0.4789, sim_neg 0.4891, sim_diff -0.0102, time 20.01s
+1618.5s 198 iter 8300, loss 0.2500, sim_pos 0.4836, sim_neg 0.4781, sim_diff 0.0055, time 19.67s
+1638.4s 199 iter 8400, loss 0.2500, sim_pos 0.5023, sim_neg 0.4969, sim_diff 0.0055, time 19.89s
+1659.5s 200 iter 8500, loss 0.2500, sim_pos 0.4688, sim_neg 0.4711, sim_diff -0.0023, time 21.09s
+1681.2s 201 iter 8600, loss 0.2500, sim_pos 0.5055, sim_neg 0.5000, sim_diff 0.0055, time 21.74s
+1702.7s 202 iter 8700, loss 0.2500, sim_pos 0.4414, sim_neg 0.4445, sim_diff -0.0031, time 21.51s
+1726.2s 203 iter 8800, loss 0.2500, sim_pos 0.5102, sim_neg 0.5133, sim_diff -0.0031, time 23.54s
+1750.2s 204 iter 8900, loss 0.2500, sim_pos 0.4203, sim_neg 0.4141, sim_diff 0.0062, time 23.95s
+1789.0s 205 iter 9000, loss 0.2500, sim_pos 0.4563, sim_neg 0.4484, sim_diff 0.0078, val/pair_auc 0.5558, val/triplet_acc 0.3560, time 38.81s
+1813.4s 206 iter 9100, loss 0.2500, sim_pos 0.5039, sim_neg 0.5156, sim_diff -0.0117, time 24.44s
+1837.0s 207 iter 9200, loss 0.2500, sim_pos 0.4945, sim_neg 0.4773, sim_diff 0.0172, time 23.57s
+1862.0s 208 iter 9300, loss 0.2500, sim_pos 0.4187, sim_neg 0.4133, sim_diff 0.0055, time 25.00s
+1886.8s 209 iter 9400, loss 0.2500, sim_pos 0.4078, sim_neg 0.4133, sim_diff -0.0055, time 24.81s
+1910.8s 210 iter 9500, loss 0.2500, sim_pos 0.5102, sim_neg 0.5023, sim_diff 0.0078, time 23.97s
+1933.0s 211 iter 9600, loss 0.2500, sim_pos 0.5094, sim_neg 0.5039, sim_diff 0.0055, time 22.17s
+1954.9s 212 iter 9700, loss 0.2500, sim_pos 0.4289, sim_neg 0.4297, sim_diff -0.0008, time 21.90s
+1978.1s 213 iter 9800, loss 0.2500, sim_pos 0.4867, sim_neg 0.4844, sim_diff 0.0023, time 23.24s
+2002.7s 214 iter 9900, loss 0.2500, sim_pos 0.4805, sim_neg 0.4836, sim_diff -0.0031, time 24.58s
+2042.9s 215 iter 10000, loss 0.2500, sim_pos 0.5312, sim_neg 0.5320, sim_diff -0.0008, val/pair_auc 0.5354, val/triplet_acc 0.1720, time 40.15s
+2068.5s 216 iter 10100, loss 0.2500, sim_pos 0.4711, sim_neg 0.4672, sim_diff 0.0039, time 25.72s
+2094.3s 217 iter 10200, loss 0.2500, sim_pos 0.5203, sim_neg 0.5055, sim_diff 0.0148, time 25.73s
+2120.3s 218 iter 10300, loss 0.2500, sim_pos 0.4977, sim_neg 0.4930, sim_diff 0.0047, time 25.96s
+2147.9s 219 iter 10400, loss 0.2500, sim_pos 0.5672, sim_neg 0.5641, sim_diff 0.0031, time 27.66s
+2175.7s 220 iter 10500, loss 0.2500, sim_pos 0.4891, sim_neg 0.4898, sim_diff -0.0008, time 27.81s
+2203.5s 221 iter 10600, loss 0.2500, sim_pos 0.5070, sim_neg 0.5102, sim_diff -0.0031, time 27.80s
+2231.5s 222 iter 10700, loss 0.2500, sim_pos 0.4953, sim_neg 0.4938, sim_diff 0.0016, time 27.95s
+2259.9s 223 iter 10800, loss 0.2500, sim_pos 0.5016, sim_neg 0.5000, sim_diff 0.0016, time 28.40s
+2288.5s 224 iter 10900, loss 0.2500, sim_pos 0.4695, sim_neg 0.4672, sim_diff 0.0023, time 28.61s
+2335.5s 225 iter 11000, loss 0.2500, sim_pos 0.5109, sim_neg 0.5125, sim_diff -0.0016, val/pair_auc 0.5390, val/triplet_acc 0.1950, time 46.96s
+2365.4s 226 iter 11100, loss 0.2500, sim_pos 0.4594, sim_neg 0.4570, sim_diff 0.0023, time 29.98s
+2396.6s 227 iter 11200, loss 0.2500, sim_pos 0.4734, sim_neg 0.4773, sim_diff -0.0039, time 31.14s
+2425.7s 228 iter 11300, loss 0.2500, sim_pos 0.4367, sim_neg 0.4336, sim_diff 0.0031, time 29.18s
+2455.2s 229 iter 11400, loss 0.2500, sim_pos 0.4453, sim_neg 0.4430, sim_diff 0.0023, time 29.51s
+2485.0s 230 iter 11500, loss 0.2500, sim_pos 0.5531, sim_neg 0.5555, sim_diff -0.0023, time 29.74s
+2514.1s 231 iter 11600, loss 0.2500, sim_pos 0.4867, sim_neg 0.4875, sim_diff -0.0008, time 29.11s
+2544.2s 232 iter 11700, loss 0.2500, sim_pos 0.5414, sim_neg 0.5383, sim_diff 0.0031, time 30.06s
+2574.3s 233 iter 11800, loss 0.2500, sim_pos 0.5375, sim_neg 0.5352, sim_diff 0.0023, time 30.09s
+2606.5s 234 iter 11900, loss 0.2500, sim_pos 0.4609, sim_neg 0.4609, sim_diff 0.0000, time 32.24s
+2659.7s 235 iter 12000, loss 0.2500, sim_pos 0.5617, sim_neg 0.5594, sim_diff 0.0023, val/pair_auc 0.5010, val/triplet_acc 0.0020, time 53.19s
+2692.5s 236 iter 12100, loss 0.2500, sim_pos 0.4922, sim_neg 0.4922, sim_diff 0.0000, time 32.79s
+2724.8s 237 iter 12200, loss 0.2500, sim_pos 0.4883, sim_neg 0.4914, sim_diff -0.0031, time 32.35s
+2758.0s 238 iter 12300, loss 0.2500, sim_pos 0.4609, sim_neg 0.4602, sim_diff 0.0008, time 33.16s
+2791.6s 239 iter 12400, loss 0.2500, sim_pos 0.5125, sim_neg 0.5117, sim_diff 0.0008, time 33.61s
+2826.5s 240 iter 12500, loss 0.2500, sim_pos 0.5375, sim_neg 0.5352, sim_diff 0.0023, time 34.83s
+2862.0s 241 iter 12600, loss 0.2500, sim_pos 0.4898, sim_neg 0.4891, sim_diff 0.0008, time 35.52s
+2898.2s 242 iter 12700, loss 0.2500, sim_pos 0.4375, sim_neg 0.4375, sim_diff 0.0000, time 36.21s
+2933.8s 243 iter 12800, loss 0.2500, sim_pos 0.4938, sim_neg 0.4938, sim_diff 0.0000, time 35.66s
+2969.5s 244 iter 12900, loss 0.2500, sim_pos 0.4648, sim_neg 0.4664, sim_diff -0.0016, time 35.68s
+3026.6s 245 iter 13000, loss 0.2500, sim_pos 0.5055, sim_neg 0.5016, sim_diff 0.0039, val/pair_auc 0.4951, val/triplet_acc 0.0660, time 57.09s
+3060.1s 246 iter 13100, loss 0.2500, sim_pos 0.5039, sim_neg 0.5023, sim_diff 0.0016, time 33.54s
+3094.8s 247 iter 13200, loss 0.2500, sim_pos 0.4477, sim_neg 0.4469, sim_diff 0.0008, time 34.73s
+3127.9s 248 iter 13300, loss 0.2500, sim_pos 0.4648, sim_neg 0.4648, sim_diff 0.0000, time 33.04s
+3160.9s 249 iter 13400, loss 0.2500, sim_pos 0.4688, sim_neg 0.4688, sim_diff 0.0000, time 32.99s
+3193.8s 250 iter 13500, loss 0.2500, sim_pos 0.4820, sim_neg 0.4836, sim_diff -0.0016, time 32.85s
+3225.9s 251 iter 13600, loss 0.2500, sim_pos 0.5086, sim_neg 0.5078, sim_diff 0.0008, time 32.16s
+3258.8s 252 iter 13700, loss 0.2500, sim_pos 0.5156, sim_neg 0.5141, sim_diff 0.0016, time 32.87s
+3292.8s 253 iter 13800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 33.98s
+3326.0s 254 iter 13900, loss 0.2500, sim_pos 0.5703, sim_neg 0.5703, sim_diff 0.0000, time 33.23s
+3377.9s 255 iter 14000, loss 0.2500, sim_pos 0.4633, sim_neg 0.4609, sim_diff 0.0023, val/pair_auc 0.5002, val/triplet_acc 0.0190, time 51.91s
+3410.2s 256 iter 14100, loss 0.2500, sim_pos 0.5172, sim_neg 0.5180, sim_diff -0.0008, time 32.26s
+3442.5s 257 iter 14200, loss 0.2500, sim_pos 0.5375, sim_neg 0.5383, sim_diff -0.0008, time 32.32s
+3479.4s 258 iter 14300, loss 0.2500, sim_pos 0.5211, sim_neg 0.5180, sim_diff 0.0031, time 36.89s
+3514.1s 259 iter 14400, loss 0.2500, sim_pos 0.5164, sim_neg 0.5156, sim_diff 0.0008, time 34.71s
+3551.4s 260 iter 14500, loss 0.2500, sim_pos 0.5039, sim_neg 0.5016, sim_diff 0.0023, time 37.36s
+3585.6s 261 iter 14600, loss 0.2500, sim_pos 0.5078, sim_neg 0.5078, sim_diff 0.0000, time 34.19s
+3619.7s 262 iter 14700, loss 0.2500, sim_pos 0.4766, sim_neg 0.4766, sim_diff 0.0000, time 34.10s
+3653.1s 263 iter 14800, loss 0.2500, sim_pos 0.5695, sim_neg 0.5703, sim_diff -0.0008, time 33.39s
+3686.9s 264 iter 14900, loss 0.2500, sim_pos 0.4570, sim_neg 0.4578, sim_diff -0.0008, time 33.78s
+3743.5s 265 iter 15000, loss 0.2500, sim_pos 0.4750, sim_neg 0.4734, sim_diff 0.0016, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 56.64s
+3778.2s 266 iter 15100, loss 0.2500, sim_pos 0.5312, sim_neg 0.5312, sim_diff 0.0000, time 34.63s
+3812.4s 267 iter 15200, loss 0.2500, sim_pos 0.5398, sim_neg 0.5406, sim_diff -0.0008, time 34.22s
+3847.4s 268 iter 15300, loss 0.2500, sim_pos 0.5141, sim_neg 0.5117, sim_diff 0.0023, time 34.97s
+3882.6s 269 iter 15400, loss 0.2500, sim_pos 0.5234, sim_neg 0.5234, sim_diff 0.0000, time 35.19s
+3918.3s 270 iter 15500, loss 0.2500, sim_pos 0.4695, sim_neg 0.4695, sim_diff 0.0000, time 35.76s
+3956.0s 271 iter 15600, loss 0.2500, sim_pos 0.4766, sim_neg 0.4766, sim_diff 0.0000, time 37.70s
+3992.3s 272 iter 15700, loss 0.2500, sim_pos 0.4781, sim_neg 0.4781, sim_diff 0.0000, time 36.33s
+4028.2s 273 iter 15800, loss 0.2500, sim_pos 0.5008, sim_neg 0.5016, sim_diff -0.0008, time 35.87s
+4065.5s 274 iter 15900, loss 0.2500, sim_pos 0.5484, sim_neg 0.5492, sim_diff -0.0008, time 37.27s
+4128.5s 275 iter 16000, loss 0.2500, sim_pos 0.4688, sim_neg 0.4688, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 62.99s
+4167.3s 276 iter 16100, loss 0.2500, sim_pos 0.4766, sim_neg 0.4766, sim_diff 0.0000, time 38.87s
+4203.1s 277 iter 16200, loss 0.2500, sim_pos 0.5078, sim_neg 0.5086, sim_diff -0.0008, time 35.78s
+4241.8s 278 iter 16300, loss 0.2500, sim_pos 0.5391, sim_neg 0.5391, sim_diff 0.0000, time 38.70s
+4281.9s 279 iter 16400, loss 0.2500, sim_pos 0.4914, sim_neg 0.4898, sim_diff 0.0016, time 40.09s
+4322.5s 280 iter 16500, loss 0.2500, sim_pos 0.4531, sim_neg 0.4531, sim_diff 0.0000, time 40.65s
+4363.0s 281 iter 16600, loss 0.2500, sim_pos 0.4531, sim_neg 0.4531, sim_diff 0.0000, time 40.46s
+4402.4s 282 iter 16700, loss 0.2500, sim_pos 0.4375, sim_neg 0.4375, sim_diff 0.0000, time 39.40s
+4437.0s 283 iter 16800, loss 0.2500, sim_pos 0.4453, sim_neg 0.4453, sim_diff 0.0000, time 34.61s
+4471.1s 284 iter 16900, loss 0.2500, sim_pos 0.5312, sim_neg 0.5312, sim_diff 0.0000, time 34.07s
+4535.4s 285 iter 17000, loss 0.2500, sim_pos 0.4992, sim_neg 0.5000, sim_diff -0.0008, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 64.29s
+4573.4s 286 iter 17100, loss 0.2500, sim_pos 0.4609, sim_neg 0.4609, sim_diff 0.0000, time 38.02s
+4610.7s 287 iter 17200, loss 0.2500, sim_pos 0.5367, sim_neg 0.5383, sim_diff -0.0016, time 37.33s
+4644.3s 288 iter 17300, loss 0.2500, sim_pos 0.4500, sim_neg 0.4508, sim_diff -0.0008, time 33.58s
+4680.2s 289 iter 17400, loss 0.2500, sim_pos 0.4758, sim_neg 0.4773, sim_diff -0.0016, time 35.93s
+4716.9s 290 iter 17500, loss 0.2500, sim_pos 0.4297, sim_neg 0.4297, sim_diff 0.0000, time 36.66s
+4753.4s 291 iter 17600, loss 0.2500, sim_pos 0.4141, sim_neg 0.4141, sim_diff 0.0000, time 36.54s
+4789.1s 292 iter 17700, loss 0.2500, sim_pos 0.4141, sim_neg 0.4141, sim_diff 0.0000, time 35.70s
+4821.7s 293 iter 17800, loss 0.2500, sim_pos 0.4844, sim_neg 0.4844, sim_diff 0.0000, time 32.56s
+4852.2s 294 iter 17900, loss 0.2500, sim_pos 0.4531, sim_neg 0.4531, sim_diff 0.0000, time 30.40s
+4911.1s 295 iter 18000, loss 0.2500, sim_pos 0.4219, sim_neg 0.4219, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 59.06s
+4942.2s 296 iter 18100, loss 0.2500, sim_pos 0.4922, sim_neg 0.4922, sim_diff 0.0000, time 30.99s
+4971.2s 297 iter 18200, loss 0.2500, sim_pos 0.4766, sim_neg 0.4766, sim_diff 0.0000, time 29.04s
+5001.7s 298 iter 18300, loss 0.2500, sim_pos 0.4297, sim_neg 0.4297, sim_diff 0.0000, time 30.45s
+5034.3s 299 iter 18400, loss 0.2500, sim_pos 0.4688, sim_neg 0.4688, sim_diff 0.0000, time 32.59s
+5068.8s 300 iter 18500, loss 0.2500, sim_pos 0.4844, sim_neg 0.4844, sim_diff 0.0000, time 34.56s
+5102.8s 301 iter 18600, loss 0.2500, sim_pos 0.4297, sim_neg 0.4297, sim_diff 0.0000, time 33.98s
+5136.5s 302 iter 18700, loss 0.2500, sim_pos 0.4219, sim_neg 0.4219, sim_diff 0.0000, time 33.74s
+5168.4s 303 iter 18800, loss 0.2500, sim_pos 0.4141, sim_neg 0.4141, sim_diff 0.0000, time 31.92s
+5198.7s 304 iter 18900, loss 0.2500, sim_pos 0.4141, sim_neg 0.4141, sim_diff 0.0000, time 30.21s
+5261.2s 305 iter 19000, loss 0.2500, sim_pos 0.4375, sim_neg 0.4375, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 62.51s
+5295.4s 306 iter 19100, loss 0.2500, sim_pos 0.4375, sim_neg 0.4375, sim_diff 0.0000, time 34.30s
+5331.7s 307 iter 19200, loss 0.2500, sim_pos 0.4375, sim_neg 0.4375, sim_diff 0.0000, time 36.19s
+5370.5s 308 iter 19300, loss 0.2500, sim_pos 0.4453, sim_neg 0.4453, sim_diff 0.0000, time 38.82s
+5408.0s 309 iter 19400, loss 0.2500, sim_pos 0.4375, sim_neg 0.4375, sim_diff 0.0000, time 37.50s
+5444.7s 310 iter 19500, loss 0.2500, sim_pos 0.4453, sim_neg 0.4453, sim_diff 0.0000, time 36.70s
+5482.8s 311 iter 19600, loss 0.2500, sim_pos 0.4453, sim_neg 0.4453, sim_diff 0.0000, time 38.10s
+5520.8s 312 iter 19700, loss 0.2500, sim_pos 0.4531, sim_neg 0.4531, sim_diff 0.0000, time 38.02s
+5562.0s 313 iter 19800, loss 0.2500, sim_pos 0.4688, sim_neg 0.4688, sim_diff 0.0000, time 41.16s
+5605.8s 314 iter 19900, loss 0.2500, sim_pos 0.4531, sim_neg 0.4531, sim_diff 0.0000, time 43.90s
+5680.3s 315 iter 20000, loss 0.2500, sim_pos 0.4453, sim_neg 0.4453, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 74.47s
+5729.2s 316 iter 20100, loss 0.2500, sim_pos 0.4453, sim_neg 0.4453, sim_diff 0.0000, time 48.91s
+5781.7s 317 iter 20200, loss 0.2500, sim_pos 0.4375, sim_neg 0.4375, sim_diff 0.0000, time 52.48s
+5833.8s 318 iter 20300, loss 0.2500, sim_pos 0.4219, sim_neg 0.4219, sim_diff 0.0000, time 52.03s
+5883.1s 319 iter 20400, loss 0.2500, sim_pos 0.4141, sim_neg 0.4141, sim_diff 0.0000, time 49.40s
+5933.5s 320 iter 20500, loss 0.2500, sim_pos 0.4219, sim_neg 0.4219, sim_diff 0.0000, time 50.33s
+5985.6s 321 iter 20600, loss 0.2500, sim_pos 0.4219, sim_neg 0.4219, sim_diff 0.0000, time 52.20s
+6039.8s 322 iter 20700, loss 0.2500, sim_pos 0.4219, sim_neg 0.4219, sim_diff 0.0000, time 54.17s
+6096.2s 323 iter 20800, loss 0.2500, sim_pos 0.4219, sim_neg 0.4219, sim_diff 0.0000, time 56.38s
+6152.7s 324 iter 20900, loss 0.2500, sim_pos 0.4219, sim_neg 0.4219, sim_diff 0.0000, time 56.47s
+6246.3s 325 iter 21000, loss 0.2500, sim_pos 0.4219, sim_neg 0.4219, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 93.58s
+6309.7s 326 iter 21100, loss 0.2500, sim_pos 0.4297, sim_neg 0.4297, sim_diff 0.0000, time 63.43s
+6375.6s 327 iter 21200, loss 0.2500, sim_pos 0.4297, sim_neg 0.4297, sim_diff 0.0000, time 65.86s
+6443.2s 328 iter 21300, loss 0.2500, sim_pos 0.4375, sim_neg 0.4375, sim_diff 0.0000, time 67.65s
+6514.5s 329 iter 21400, loss 0.2500, sim_pos 0.4297, sim_neg 0.4297, sim_diff 0.0000, time 71.23s
+6587.4s 330 iter 21500, loss 0.2500, sim_pos 0.4297, sim_neg 0.4297, sim_diff 0.0000, time 72.98s
+6662.3s 331 iter 21600, loss 0.2500, sim_pos 0.4297, sim_neg 0.4297, sim_diff 0.0000, time 74.86s
+6734.7s 332 iter 21700, loss 0.2500, sim_pos 0.4375, sim_neg 0.4375, sim_diff 0.0000, time 72.38s
+6804.6s 333 iter 21800, loss 0.2500, sim_pos 0.4375, sim_neg 0.4375, sim_diff 0.0000, time 69.90s
+6868.6s 334 iter 21900, loss 0.2500, sim_pos 0.4375, sim_neg 0.4375, sim_diff 0.0000, time 64.02s
+6977.0s 335 iter 22000, loss 0.2500, sim_pos 0.4375, sim_neg 0.4375, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 108.40s
+7032.3s 336 iter 22100, loss 0.2500, sim_pos 0.4375, sim_neg 0.4375, sim_diff 0.0000, time 55.29s
+7084.0s 337 iter 22200, loss 0.2500, sim_pos 0.4531, sim_neg 0.4531, sim_diff 0.0000, time 51.74s
+7130.1s 338 iter 22300, loss 0.2500, sim_pos 0.4688, sim_neg 0.4688, sim_diff 0.0000, time 46.10s
+7175.4s 339 iter 22400, loss 0.2500, sim_pos 0.4688, sim_neg 0.4688, sim_diff 0.0000, time 45.23s
+7219.8s 340 iter 22500, loss 0.2500, sim_pos 0.4609, sim_neg 0.4609, sim_diff 0.0000, time 44.42s
+7263.8s 341 iter 22600, loss 0.2500, sim_pos 0.4688, sim_neg 0.4688, sim_diff 0.0000, time 44.05s
+7306.3s 342 iter 22700, loss 0.2500, sim_pos 0.4688, sim_neg 0.4688, sim_diff 0.0000, time 42.51s
+7348.3s 343 iter 22800, loss 0.2500, sim_pos 0.4688, sim_neg 0.4688, sim_diff 0.0000, time 41.95s
+7390.2s 344 iter 22900, loss 0.2500, sim_pos 0.4766, sim_neg 0.4766, sim_diff 0.0000, time 41.95s
+7484.9s 345 iter 23000, loss 0.2500, sim_pos 0.4844, sim_neg 0.4844, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 94.65s
+7526.2s 346 iter 23100, loss 0.2500, sim_pos 0.4688, sim_neg 0.4688, sim_diff 0.0000, time 41.37s
+7567.4s 347 iter 23200, loss 0.2500, sim_pos 0.4844, sim_neg 0.4844, sim_diff 0.0000, time 41.17s
+7608.5s 348 iter 23300, loss 0.2500, sim_pos 0.5234, sim_neg 0.5234, sim_diff 0.0000, time 41.07s
+7648.4s 349 iter 23400, loss 0.2500, sim_pos 0.5078, sim_neg 0.5078, sim_diff 0.0000, time 39.93s
+7688.7s 350 iter 23500, loss 0.2500, sim_pos 0.5781, sim_neg 0.5781, sim_diff 0.0000, time 40.29s
+7728.6s 351 iter 23600, loss 0.2500, sim_pos 0.5234, sim_neg 0.5234, sim_diff 0.0000, time 39.96s
+7768.0s 352 iter 23700, loss 0.2500, sim_pos 0.5469, sim_neg 0.5469, sim_diff 0.0000, time 39.32s
+7807.9s 353 iter 23800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 39.91s
+7847.4s 354 iter 23900, loss 0.2500, sim_pos 0.5547, sim_neg 0.5547, sim_diff 0.0000, time 39.55s
+7938.7s 355 iter 24000, loss 0.2500, sim_pos 0.5547, sim_neg 0.5547, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 91.23s
+7978.5s 356 iter 24100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 39.88s
+8018.5s 357 iter 24200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 39.98s
+8058.7s 358 iter 24300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 40.20s
+8099.9s 359 iter 24400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 41.19s
+8140.8s 360 iter 24500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 40.90s
+8180.4s 361 iter 24600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 39.55s
+8218.9s 362 iter 24700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 38.49s
+8257.8s 363 iter 24800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 38.94s
+8296.1s 364 iter 24900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 38.33s
+8386.3s 365 iter 25000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 90.21s
+8425.5s 366 iter 25100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 39.17s
+8463.7s 367 iter 25200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 38.18s
+8498.5s 368 iter 25300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 34.80s
+8530.4s 369 iter 25400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 31.92s
+8562.7s 370 iter 25500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 32.25s
+8594.7s 371 iter 25600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 32.06s
+8626.9s 372 iter 25700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 32.19s
+8655.3s 373 iter 25800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 28.42s
+8681.0s 374 iter 25900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 25.72s
+8725.9s 375 iter 26000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 44.90s
+8747.2s 376 iter 26100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 21.27s
+8768.9s 377 iter 26200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 21.69s
+8790.5s 378 iter 26300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 21.68s
+8812.7s 379 iter 26400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 22.09s
+8833.5s 380 iter 26500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 20.86s
+8852.8s 381 iter 26600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 19.29s
+8871.9s 382 iter 26700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 19.13s
+8890.3s 383 iter 26800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 18.38s
+8907.8s 384 iter 26900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 17.48s
+8939.0s 385 iter 27000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 31.24s
+8953.0s 386 iter 27100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 14.00s
+8965.8s 387 iter 27200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 12.79s
+8976.6s 388 iter 27300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.75s
+8987.2s 389 iter 27400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.64s
+8997.6s 390 iter 27500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.38s
+9007.6s 391 iter 27600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.97s
+9017.4s 392 iter 27700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.88s
+9027.6s 393 iter 27800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.15s
+9037.4s 394 iter 27900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.86s
+9053.6s 395 iter 28000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.16s
+9063.8s 396 iter 28100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.26s
+9073.8s 397 iter 28200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.93s
+9083.7s 398 iter 28300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.92s
+9093.9s 399 iter 28400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.19s
+9103.9s 400 iter 28500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.98s
+9113.5s 401 iter 28600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.61s
+9123.7s 402 iter 28700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.23s
+9133.4s 403 iter 28800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.75s
+9143.4s 404 iter 28900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.89s
+9160.3s 405 iter 29000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.90s
+9170.2s 406 iter 29100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.94s
+9180.1s 407 iter 29200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.89s
+9190.2s 408 iter 29300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.06s
+9200.1s 409 iter 29400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.96s
+9209.5s 410 iter 29500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.44s
+9220.0s 411 iter 29600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.45s
+9229.8s 412 iter 29700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.80s
+9239.7s 413 iter 29800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.89s
+9249.9s 414 iter 29900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.25s
+9266.0s 415 iter 30000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.09s
+9275.4s 416 iter 30100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.39s
+9285.6s 417 iter 30200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.25s
+9295.2s 418 iter 30300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.49s
+9304.7s 419 iter 30400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.59s
+9314.8s 420 iter 30500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.97s
+9324.2s 421 iter 30600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.49s
+9333.7s 422 iter 30700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.53s
+9343.7s 423 iter 30800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.97s
+9353.4s 424 iter 30900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.68s
+9369.4s 425 iter 31000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.02s
+9379.3s 426 iter 31100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.94s
+9388.7s 427 iter 31200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.32s
+9398.3s 428 iter 31300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.62s
+9408.2s 429 iter 31400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.91s
+9417.9s 430 iter 31500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.73s
+9427.2s 431 iter 31600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.21s
+9436.6s 432 iter 31700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.45s
+9446.5s 433 iter 31800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.96s
+9455.8s 434 iter 31900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.19s
+9471.9s 435 iter 32000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.05s
+9481.2s 436 iter 32100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.44s
+9490.8s 437 iter 32200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.60s
+9500.2s 438 iter 32300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.37s
+9510.5s 439 iter 32400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.23s
+9520.0s 440 iter 32500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.52s
+9529.6s 441 iter 32600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.68s
+9539.6s 442 iter 32700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.96s
+9549.2s 443 iter 32800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.58s
+9558.6s 444 iter 32900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.46s
+9575.1s 445 iter 33000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.53s
+9585.1s 446 iter 33100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.92s
+9594.6s 447 iter 33200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.53s
+9604.9s 448 iter 33300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.33s
+9614.4s 449 iter 33400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.41s
+9623.9s 450 iter 33500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.56s
+9633.9s 451 iter 33600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.97s
+9643.7s 452 iter 33700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.89s
+9653.3s 453 iter 33800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.57s
+9663.6s 454 iter 33900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.28s
+9679.2s 455 iter 34000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 15.59s
+9689.1s 456 iter 34100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.88s
+9699.2s 457 iter 34200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.11s
+9708.9s 458 iter 34300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.76s
+9718.7s 459 iter 34400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.71s
+9728.5s 460 iter 34500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.86s
+9738.1s 461 iter 34600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.56s
+9747.4s 462 iter 34700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.29s
+9757.2s 463 iter 34800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.83s
+9767.2s 464 iter 34900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.04s
+9783.5s 465 iter 35000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.21s
+9793.4s 466 iter 35100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.93s
+9803.1s 467 iter 35200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.73s
+9813.0s 468 iter 35300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.87s
+9823.7s 469 iter 35400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.71s
+9833.6s 470 iter 35500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.85s
+9843.5s 471 iter 35600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.99s
+9853.3s 472 iter 35700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.76s
+9863.6s 473 iter 35800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.23s
+9873.2s 474 iter 35900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.69s
+9889.6s 475 iter 36000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.34s
+9899.5s 476 iter 36100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.84s
+9909.2s 477 iter 36200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.84s
+9919.4s 478 iter 36300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.11s
+9928.9s 479 iter 36400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.53s
+9938.7s 480 iter 36500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.74s
+9948.4s 481 iter 36600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.73s
+9958.6s 482 iter 36700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.22s
+9968.2s 483 iter 36800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.61s
+9977.8s 484 iter 36900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.55s
+9993.5s 485 iter 37000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 15.78s
+10003.4s 486 iter 37100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.86s
+10013.1s 487 iter 37200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.69s
+10023.1s 488 iter 37300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.02s
+10032.6s 489 iter 37400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.50s
+10041.7s 490 iter 37500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.13s
+10051.6s 491 iter 37600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.82s
+10061.0s 492 iter 37700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.49s
+10070.6s 493 iter 37800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.58s
+10080.2s 494 iter 37900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.58s
+10096.5s 495 iter 38000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.22s
+10106.6s 496 iter 38100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.13s
+10117.3s 497 iter 38200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.71s
+10127.3s 498 iter 38300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.02s
+10137.6s 499 iter 38400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.35s
+10148.9s 500 iter 38500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.24s
+10159.1s 501 iter 38600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.19s
+10169.1s 502 iter 38700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.04s
+10179.4s 503 iter 38800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.26s
+10189.9s 504 iter 38900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.50s
+10206.8s 505 iter 39000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.88s
+10216.7s 506 iter 39100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.94s
+10226.3s 507 iter 39200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.54s
+10235.9s 508 iter 39300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.71s
+10246.2s 509 iter 39400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.26s
+10256.0s 510 iter 39500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.75s
+10265.4s 511 iter 39600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.37s
+10275.4s 512 iter 39700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.08s
+10285.1s 513 iter 39800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.70s
+10294.5s 514 iter 39900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.42s
+10311.0s 515 iter 40000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.39s
+10320.4s 516 iter 40100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.51s
+10330.0s 517 iter 40200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.59s
+10339.8s 518 iter 40300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.72s
+10349.8s 519 iter 40400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.01s
+10359.4s 520 iter 40500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.65s
+10370.0s 521 iter 40600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.67s
+10380.0s 522 iter 40700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.82s
+10389.9s 523 iter 40800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.01s
+10400.5s 524 iter 40900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.59s
+10417.8s 525 iter 41000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.26s
+10428.3s 526 iter 41100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.52s
+10439.3s 527 iter 41200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.06s
+10450.8s 528 iter 41300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.30s
+10461.3s 529 iter 41400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.67s
+10472.4s 530 iter 41500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.06s
+10483.0s 531 iter 41600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.53s
+10493.3s 532 iter 41700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.43s
+10504.4s 533 iter 41800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.07s
+10515.0s 534 iter 41900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.55s
+10532.6s 535 iter 42000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.66s
+10543.0s 536 iter 42100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.41s
+10553.4s 537 iter 42200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.32s
+10563.9s 538 iter 42300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.51s
+10574.2s 539 iter 42400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.34s
+10584.2s 540 iter 42500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.92s
+10594.9s 541 iter 42600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.80s
+10605.1s 542 iter 42700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.14s
+10615.5s 543 iter 42800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.34s
+10626.1s 544 iter 42900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.73s
+10643.2s 545 iter 43000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.02s
+10653.4s 546 iter 43100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.22s
+10664.3s 547 iter 43200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.90s
+10674.6s 548 iter 43300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.32s
+10685.4s 549 iter 43400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.73s
+10696.5s 550 iter 43500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.14s
+10707.1s 551 iter 43600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.64s
+10717.6s 552 iter 43700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.39s
+10728.9s 553 iter 43800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.34s
+10739.7s 554 iter 43900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.86s
+10758.0s 555 iter 44000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 18.24s
+10769.0s 556 iter 44100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.03s
+10780.1s 557 iter 44200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.14s
+10792.0s 558 iter 44300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.80s
+10802.4s 559 iter 44400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.48s
+10812.7s 560 iter 44500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.36s
+10823.5s 561 iter 44600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.72s
+10834.1s 562 iter 44700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.56s
+10844.3s 563 iter 44800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.29s
+10855.2s 564 iter 44900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.85s
+10871.4s 565 iter 45000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.28s
+10882.0s 566 iter 45100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.60s
+10892.0s 567 iter 45200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.89s
+10901.7s 568 iter 45300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.76s
+10912.5s 569 iter 45400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.85s
+10922.8s 570 iter 45500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.26s
+10933.1s 571 iter 45600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.32s
+10943.2s 572 iter 45700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.12s
+10954.4s 573 iter 45800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.04s
+10964.7s 574 iter 45900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.35s
+10981.7s 575 iter 46000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.05s
+10991.8s 576 iter 46100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.02s
+11002.0s 577 iter 46200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.34s
+11012.8s 578 iter 46300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.77s
+11022.6s 579 iter 46400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.71s
+11032.4s 580 iter 46500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.84s
+11042.5s 581 iter 46600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.11s
+11052.3s 582 iter 46700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.80s
+11061.7s 583 iter 46800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.41s
+11071.4s 584 iter 46900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.75s
+11087.6s 585 iter 47000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.12s
+11097.4s 586 iter 47100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.79s
+11107.3s 587 iter 47200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.01s
+11117.2s 588 iter 47300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.84s
+11126.5s 589 iter 47400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.35s
+11136.7s 590 iter 47500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.98s
+11146.2s 591 iter 47600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.72s
+11156.3s 592 iter 47700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.02s
+11166.0s 593 iter 47800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.75s
+11175.9s 594 iter 47900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.88s
+11191.9s 595 iter 48000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.06s
+11202.3s 596 iter 48100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.34s
+11212.7s 597 iter 48200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.37s
+11222.7s 598 iter 48300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.08s
+11233.4s 599 iter 48400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.59s
+11243.5s 600 iter 48500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.14s
+11253.7s 601 iter 48600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.18s
+11263.8s 602 iter 48700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.13s
+11274.6s 603 iter 48800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.72s
+11284.5s 604 iter 48900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.00s
+11301.4s 605 iter 49000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.85s
+11311.4s 606 iter 49100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.00s
+11321.3s 607 iter 49200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.97s
+11332.1s 608 iter 49300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.83s
+11342.3s 609 iter 49400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.04s
+11352.5s 610 iter 49500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.29s
+11363.0s 611 iter 49600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.52s
+11373.4s 612 iter 49700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.32s
+11383.9s 613 iter 49800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.54s
+11395.2s 614 iter 49900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.30s
+11411.9s 615 iter 50000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.64s
+11422.2s 616 iter 50100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.41s
+11432.6s 617 iter 50200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.39s
+11442.9s 618 iter 50300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.21s
+11452.9s 619 iter 50400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.07s
+11463.6s 620 iter 50500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.69s
+11473.7s 621 iter 50600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.04s
+11483.4s 622 iter 50700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.80s
+11494.0s 623 iter 50800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.54s
+11504.0s 624 iter 50900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.96s
+11521.4s 625 iter 51000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.49s
+11532.1s 626 iter 51100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.68s
+11542.7s 627 iter 51200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.54s
+11553.0s 628 iter 51300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.38s
+11563.3s 629 iter 51400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.34s
+11573.4s 630 iter 51500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.04s
+11583.7s 631 iter 51600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.34s
+11594.1s 632 iter 51700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.34s
+11604.4s 633 iter 51800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.28s
+11614.5s 634 iter 51900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.24s
+11631.4s 635 iter 52000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.88s
+11641.8s 636 iter 52100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.31s
+11652.2s 637 iter 52200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.45s
+11662.8s 638 iter 52300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.58s
+11673.5s 639 iter 52400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.66s
+11684.4s 640 iter 52500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.99s
+11694.5s 641 iter 52600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.02s
+11704.8s 642 iter 52700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.29s
+11714.9s 643 iter 52800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.18s
+11724.7s 644 iter 52900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.84s
+11740.8s 645 iter 53000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 15.95s
+11751.1s 646 iter 53100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.44s
+11761.3s 647 iter 53200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.11s
+11771.3s 648 iter 53300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.97s
+11781.4s 649 iter 53400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.19s
+11791.1s 650 iter 53500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.69s
+11801.4s 651 iter 53600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.24s
+11812.3s 652 iter 53700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.96s
+11823.3s 653 iter 53800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.04s
+11833.5s 654 iter 53900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.11s
+11850.6s 655 iter 54000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.14s
+11860.6s 656 iter 54100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.00s
+11870.9s 657 iter 54200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.26s
+11881.3s 658 iter 54300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.45s
+11891.7s 659 iter 54400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.36s
+11901.6s 660 iter 54500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.88s
+11912.1s 661 iter 54600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.61s
+11922.5s 662 iter 54700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.30s
+11932.5s 663 iter 54800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.00s
+11943.1s 664 iter 54900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.64s
+11959.7s 665 iter 55000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.65s
+11971.0s 666 iter 55100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.22s
+11981.4s 667 iter 55200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.50s
+11992.1s 668 iter 55300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.65s
+12003.1s 669 iter 55400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.95s
+12013.9s 670 iter 55500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.81s
+12024.0s 671 iter 55600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.11s
+12034.9s 672 iter 55700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.91s
+12045.2s 673 iter 55800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.33s
+12055.6s 674 iter 55900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.37s
+12072.9s 675 iter 56000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.28s
+12082.9s 676 iter 56100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.05s
+12092.9s 677 iter 56200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.01s
+12103.5s 678 iter 56300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.50s
+12113.8s 679 iter 56400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.40s
+12124.0s 680 iter 56500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.23s
+12134.7s 681 iter 56600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.55s
+12144.5s 682 iter 56700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.88s
+12154.9s 683 iter 56800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.44s
+12165.4s 684 iter 56900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.35s
+12182.4s 685 iter 57000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.12s
+12192.6s 686 iter 57100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.20s
+12203.3s 687 iter 57200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.67s
+12213.6s 688 iter 57300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.32s
+12224.3s 689 iter 57400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.69s
+12235.2s 690 iter 57500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.79s
+12245.2s 691 iter 57600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.18s
+12255.9s 692 iter 57700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.67s
+12266.6s 693 iter 57800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.59s
+12277.0s 694 iter 57900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.41s
+12294.1s 695 iter 58000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.20s
+12304.7s 696 iter 58100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.51s
+12315.2s 697 iter 58200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.55s
+12325.9s 698 iter 58300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.77s
+12336.2s 699 iter 58400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.14s
+12346.6s 700 iter 58500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.49s
+12357.3s 701 iter 58600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.69s
+12367.8s 702 iter 58700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.43s
+12378.1s 703 iter 58800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.41s
+12388.7s 704 iter 58900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.55s
+12405.8s 705 iter 59000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.99s
+12416.0s 706 iter 59100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.30s
+12426.9s 707 iter 59200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.97s
+12437.2s 708 iter 59300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.12s
+12447.4s 709 iter 59400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.36s
+12458.0s 710 iter 59500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.60s
+12468.6s 711 iter 59600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.51s
+12478.9s 712 iter 59700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.43s
+12490.0s 713 iter 59800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.99s
+12500.4s 714 iter 59900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.31s
+12517.8s 715 iter 60000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.49s
+12528.1s 716 iter 60100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.32s
+12538.6s 717 iter 60200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.44s
+12549.8s 718 iter 60300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.26s
+12560.0s 719 iter 60400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.24s
+12570.9s 720 iter 60500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.76s
+12581.4s 721 iter 60600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.69s
+12592.0s 722 iter 60700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.58s
+12602.8s 723 iter 60800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.66s
+12613.8s 724 iter 60900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.07s
+12630.9s 725 iter 61000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.14s
+12641.6s 726 iter 61100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.60s
+12652.3s 727 iter 61200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.84s
+12663.0s 728 iter 61300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.67s
+12673.8s 729 iter 61400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.72s
+12684.1s 730 iter 61500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.32s
+12694.6s 731 iter 61600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.59s
+12704.8s 732 iter 61700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.07s
+12715.5s 733 iter 61800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.81s
+12725.4s 734 iter 61900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.92s
+12742.4s 735 iter 62000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.86s
+12752.5s 736 iter 62100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.20s
+12762.7s 737 iter 62200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.18s
+12773.2s 738 iter 62300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.43s
+12783.4s 739 iter 62400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.26s
+12793.3s 740 iter 62500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.88s
+12803.7s 741 iter 62600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.40s
+12813.6s 742 iter 62700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.91s
+12823.7s 743 iter 62800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.13s
+12833.9s 744 iter 62900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.14s
+12850.9s 745 iter 63000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.10s
+12861.0s 746 iter 63100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.05s
+12871.5s 747 iter 63200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.47s
+12881.7s 748 iter 63300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.26s
+12891.6s 749 iter 63400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.91s
+12902.8s 750 iter 63500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.13s
+12913.2s 751 iter 63600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.42s
+12923.5s 752 iter 63700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.31s
+12934.0s 753 iter 63800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.49s
+12944.1s 754 iter 63900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.14s
+12960.4s 755 iter 64000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.30s
+12971.5s 756 iter 64100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.99s
+12981.7s 757 iter 64200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.27s
+12991.7s 758 iter 64300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.09s
+13003.0s 759 iter 64400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.18s
+13013.5s 760 iter 64500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.53s
+13024.3s 761 iter 64600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.78s
+13035.4s 762 iter 64700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.05s
+13046.2s 763 iter 64800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.91s
+13057.0s 764 iter 64900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.81s
+13075.2s 765 iter 65000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 18.12s
+13085.6s 766 iter 65100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.49s
+13097.3s 767 iter 65200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.67s
+13108.0s 768 iter 65300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.61s
+13118.4s 769 iter 65400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.46s
+13129.2s 770 iter 65500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.83s
+13139.3s 771 iter 65600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.07s
+13149.7s 772 iter 65700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.43s
+13159.9s 773 iter 65800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.16s
+13169.8s 774 iter 65900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.90s
+13186.4s 775 iter 66000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.57s
+13197.3s 776 iter 66100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.02s
+13207.8s 777 iter 66200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.34s
+13218.5s 778 iter 66300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.78s
+13229.2s 779 iter 66400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.74s
+13239.6s 780 iter 66500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.38s
+13250.1s 781 iter 66600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.53s
+13261.2s 782 iter 66700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.07s
+13272.2s 783 iter 66800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.88s
+13283.0s 784 iter 66900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.95s
+13301.4s 785 iter 67000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 18.40s
+13312.5s 786 iter 67100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.92s
+13324.2s 787 iter 67200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.84s
+13335.2s 788 iter 67300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.02s
+13346.0s 789 iter 67400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.64s
+13356.8s 790 iter 67500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.90s
+13367.7s 791 iter 67600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.00s
+13378.5s 792 iter 67700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.66s
+13389.4s 793 iter 67800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.01s
+13399.7s 794 iter 67900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.28s
+13416.9s 795 iter 68000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.12s
+13427.0s 796 iter 68100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.15s
+13437.3s 797 iter 68200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.30s
+13448.0s 798 iter 68300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.64s
+13458.4s 799 iter 68400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.46s
+13468.7s 800 iter 68500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.31s
+13479.2s 801 iter 68600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.43s
+13489.6s 802 iter 68700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.49s
+13499.7s 803 iter 68800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.06s
+13510.7s 804 iter 68900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.94s
+13527.5s 805 iter 69000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 16.82s
+13537.8s 806 iter 69100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.39s
+13548.5s 807 iter 69200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.60s
+13559.1s 808 iter 69300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.67s
+13569.7s 809 iter 69400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.59s
+13581.1s 810 iter 69500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.37s
+13591.4s 811 iter 69600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.38s
+13602.0s 812 iter 69700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.53s
+13613.2s 813 iter 69800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.11s
+13623.4s 814 iter 69900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.29s
+13641.0s 815 iter 70000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.57s
+13651.4s 816 iter 70100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.32s
+13661.7s 817 iter 70200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.44s
+13672.4s 818 iter 70300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.75s
+13683.0s 819 iter 70400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.53s
+13693.4s 820 iter 70500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.41s
+13704.5s 821 iter 70600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.09s
+13715.0s 822 iter 70700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.43s
+13725.4s 823 iter 70800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.56s
+13736.3s 824 iter 70900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.79s
+13753.8s 825 iter 71000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.47s
+13764.4s 826 iter 71100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.68s
+13775.2s 827 iter 71200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.86s
+13785.8s 828 iter 71300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.45s
+13796.0s 829 iter 71400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.25s
+13806.9s 830 iter 71500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.95s
+13817.2s 831 iter 71600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.18s
+13827.7s 832 iter 71700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.62s
+13838.5s 833 iter 71800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.77s
+13849.4s 834 iter 71900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.82s
+13867.1s 835 iter 72000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.82s
+13877.9s 836 iter 72100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.79s
+13888.4s 837 iter 72200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.42s
+13899.2s 838 iter 72300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.88s
+13909.7s 839 iter 72400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.49s
+13920.0s 840 iter 72500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.22s
+13931.0s 841 iter 72600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.09s
+13941.3s 842 iter 72700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.26s
+13952.0s 843 iter 72800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.59s
+13962.6s 844 iter 72900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.73s
+13979.7s 845 iter 73000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.09s
+13990.4s 846 iter 73100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.49s
+14001.1s 847 iter 73200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.95s
+14011.3s 848 iter 73300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.17s
+14022.3s 849 iter 73400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.83s
+14032.9s 850 iter 73500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.83s
+14043.6s 851 iter 73600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.64s
+14054.4s 852 iter 73700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.56s
+14065.2s 853 iter 73800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.07s
+14075.7s 854 iter 73900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.44s
+14093.1s 855 iter 74000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.32s
+14103.5s 856 iter 74100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.53s
+14114.1s 857 iter 74200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.52s
+14125.2s 858 iter 74300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.06s
+14135.5s 859 iter 74400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.36s
+14146.5s 860 iter 74500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.98s
+14157.5s 861 iter 74600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.93s
+14168.1s 862 iter 74700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.72s
+14178.5s 863 iter 74800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.45s
+14189.6s 864 iter 74900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.98s
+14206.8s 865 iter 75000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.22s
+14217.8s 866 iter 75100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.04s
+14228.4s 867 iter 75200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.53s
+14238.6s 868 iter 75300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.29s
+14249.4s 869 iter 75400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.87s
+14259.8s 870 iter 75500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.27s
+14270.3s 871 iter 75600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.59s
+14281.2s 872 iter 75700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.84s
+14292.0s 873 iter 75800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.79s
+14302.2s 874 iter 75900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.21s
+14319.9s 875 iter 76000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.77s
+14330.6s 876 iter 76100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.50s
+14341.4s 877 iter 76200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.94s
+14352.8s 878 iter 76300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.40s
+14363.8s 879 iter 76400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.90s
+14374.7s 880 iter 76500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.02s
+14386.2s 881 iter 76600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.52s
+14397.5s 882 iter 76700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.14s
+14408.5s 883 iter 76800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.13s
+14419.4s 884 iter 76900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.95s
+14437.5s 885 iter 77000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.84s
+14448.7s 886 iter 77100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.41s
+14459.1s 887 iter 77200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.37s
+14469.8s 888 iter 77300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.58s
+14480.5s 889 iter 77400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.86s
+14491.1s 890 iter 77500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.58s
+14501.4s 891 iter 77600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.27s
+14512.4s 892 iter 77700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.05s
+14522.7s 893 iter 77800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.33s
+14533.5s 894 iter 77900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.65s
+14551.1s 895 iter 78000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.75s
+14561.3s 896 iter 78100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.20s
+14572.7s 897 iter 78200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.24s
+14583.1s 898 iter 78300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.50s
+14593.9s 899 iter 78400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.82s
+14605.1s 900 iter 78500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.10s
+14615.8s 901 iter 78600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.84s
+14626.3s 902 iter 78700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.51s
+14637.8s 903 iter 78800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.40s
+14648.6s 904 iter 78900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.81s
+14666.9s 905 iter 79000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 18.40s
+14677.6s 906 iter 79100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.57s
+14688.2s 907 iter 79200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.69s
+14699.5s 908 iter 79300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.32s
+14710.3s 909 iter 79400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.66s
+14721.0s 910 iter 79500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.83s
+14732.2s 911 iter 79600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.20s
+14743.0s 912 iter 79700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.70s
+14753.3s 913 iter 79800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.43s
+14764.6s 914 iter 79900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.24s
+14782.0s 915 iter 80000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.32s
+14793.2s 916 iter 80100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.33s
+14803.7s 917 iter 80200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.54s
+14814.6s 918 iter 80300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.71s
+14825.6s 919 iter 80400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.13s
+14836.4s 920 iter 80500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.82s
+14847.1s 921 iter 80600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.52s
+14858.2s 922 iter 80700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.20s
+14868.6s 923 iter 80800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.46s
+14879.5s 924 iter 80900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.75s
+14897.4s 925 iter 81000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 18.05s
+14907.9s 926 iter 81100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.50s
+14918.8s 927 iter 81200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.82s
+14929.7s 928 iter 81300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.00s
+14940.6s 929 iter 81400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.84s
+14951.5s 930 iter 81500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.82s
+14962.7s 931 iter 81600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.28s
+14973.2s 932 iter 81700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.59s
+14984.0s 933 iter 81800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.66s
+14994.9s 934 iter 81900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.99s
+15012.7s 935 iter 82000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.75s
+15023.7s 936 iter 82100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.96s
+15034.5s 937 iter 82200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.91s
+15044.9s 938 iter 82300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.40s
+15056.2s 939 iter 82400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.17s
+15067.1s 940 iter 82500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.97s
+15077.6s 941 iter 82600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.58s
+15088.9s 942 iter 82700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.17s
+15099.4s 943 iter 82800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.56s
+15110.1s 944 iter 82900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.75s
+15128.1s 945 iter 83000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.83s
+15138.8s 946 iter 83100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.84s
+15149.8s 947 iter 83200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.99s
+15160.8s 948 iter 83300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.93s
+15171.3s 949 iter 83400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.60s
+15182.7s 950 iter 83500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.40s
+15193.8s 951 iter 83600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.95s
+15204.1s 952 iter 83700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.42s
+15215.3s 953 iter 83800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.22s
+15225.9s 954 iter 83900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.55s
+15243.9s 955 iter 84000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 18.04s
+15254.5s 956 iter 84100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.59s
+15265.4s 957 iter 84200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.77s
+15276.1s 958 iter 84300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.83s
+15286.7s 959 iter 84400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.61s
+15297.2s 960 iter 84500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.37s
+15308.2s 961 iter 84600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.06s
+15318.5s 962 iter 84700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.38s
+15329.2s 963 iter 84800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.52s
+15339.8s 964 iter 84900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.75s
+15357.2s 965 iter 85000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.41s
+15367.8s 966 iter 85100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.50s
+15378.7s 967 iter 85200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.99s
+15389.5s 968 iter 85300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.75s
+15400.0s 969 iter 85400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.47s
+15411.1s 970 iter 85500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.24s
+15421.3s 971 iter 85600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.16s
+15432.0s 972 iter 85700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.49s
+15442.9s 973 iter 85800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.11s
+15453.5s 974 iter 85900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.60s
+15471.1s 975 iter 86000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.52s
+15481.7s 976 iter 86100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.64s
+15492.3s 977 iter 86200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.63s
+15503.4s 978 iter 86300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.93s
+15514.0s 979 iter 86400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.75s
+15524.3s 980 iter 86500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.30s
+15535.4s 981 iter 86600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.08s
+15545.9s 982 iter 86700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.48s
+15556.5s 983 iter 86800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.65s
+15567.4s 984 iter 86900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.84s
+15584.7s 985 iter 87000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.32s
+15595.3s 986 iter 87100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.66s
+15605.9s 987 iter 87200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.50s
+15616.0s 988 iter 87300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.23s
+15627.0s 989 iter 87400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.98s
+15637.4s 990 iter 87500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.30s
+15647.7s 991 iter 87600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.43s
+15658.5s 992 iter 87700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.77s
+15669.1s 993 iter 87800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.49s
+15679.4s 994 iter 87900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.40s
+15696.6s 995 iter 88000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.16s
+15707.0s 996 iter 88100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.39s
+15717.2s 997 iter 88200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.25s
+15727.9s 998 iter 88300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.72s
+15738.1s 999 iter 88400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.08s
+15748.5s 1000 iter 88500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.49s
+15759.1s 1001 iter 88600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.61s
+15769.5s 1002 iter 88700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.31s
+15779.7s 1003 iter 88800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.25s
+15790.5s 1004 iter 88900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.87s
+15807.8s 1005 iter 89000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.14s
+15817.7s 1006 iter 89100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.06s
+15828.5s 1007 iter 89200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.77s
+15838.8s 1008 iter 89300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.19s
+15849.1s 1009 iter 89400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.43s
+15859.7s 1010 iter 89500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.57s
+15870.4s 1011 iter 89600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.59s
+15880.6s 1012 iter 89700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.31s
+15891.4s 1013 iter 89800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.78s
+15901.9s 1014 iter 89900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.38s
+15919.3s 1015 iter 90000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.53s
+15929.4s 1016 iter 90100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.15s
+15939.9s 1017 iter 90200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.37s
+15950.5s 1018 iter 90300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.76s
+15960.7s 1019 iter 90400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.15s
+15971.3s 1020 iter 90500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.47s
+15981.7s 1021 iter 90600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.55s
+15992.2s 1022 iter 90700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.54s
+16002.5s 1023 iter 90800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.10s
+16013.3s 1024 iter 90900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.95s
+16030.4s 1025 iter 91000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.14s
+16041.0s 1026 iter 91100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.43s
+16051.5s 1027 iter 91200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.68s
+16062.1s 1028 iter 91300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.53s
+16072.3s 1029 iter 91400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.18s
+16083.2s 1030 iter 91500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.96s
+16093.7s 1031 iter 91600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.45s
+16103.9s 1032 iter 91700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.11s
+16114.6s 1033 iter 91800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.87s
+16124.8s 1034 iter 91900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.16s
+16142.4s 1035 iter 92000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.41s
+16152.6s 1036 iter 92100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.36s
+16162.9s 1037 iter 92200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.36s
+16173.5s 1038 iter 92300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.49s
+16184.1s 1039 iter 92400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.65s
+16194.3s 1040 iter 92500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.23s
+16205.5s 1041 iter 92600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.02s
+16215.8s 1042 iter 92700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.42s
+16226.1s 1043 iter 92800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.38s
+16237.1s 1044 iter 92900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.85s
+16254.0s 1045 iter 93000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.01s
+16264.4s 1046 iter 93100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.38s
+16275.2s 1047 iter 93200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.73s
+16285.7s 1048 iter 93300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.56s
+16295.9s 1049 iter 93400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.21s
+16307.0s 1050 iter 93500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.06s
+16317.3s 1051 iter 93600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.33s
+16327.8s 1052 iter 93700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.56s
+16338.7s 1053 iter 93800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.76s
+16349.2s 1054 iter 93900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.65s
+16366.6s 1055 iter 94000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.38s
+16377.2s 1056 iter 94100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.42s
+16387.6s 1057 iter 94200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.58s
+16398.4s 1058 iter 94300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.81s
+16408.9s 1059 iter 94400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.35s
+16418.9s 1060 iter 94500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.15s
+16430.0s 1061 iter 94600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.09s
+16440.3s 1062 iter 94700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.17s
+16450.9s 1063 iter 94800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.68s
+16461.8s 1064 iter 94900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.89s
+16479.2s 1065 iter 95000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.32s
+16489.5s 1066 iter 95100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.45s
+16500.5s 1067 iter 95200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.99s
+16511.1s 1068 iter 95300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.49s
+16521.7s 1069 iter 95400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.75s
+16532.5s 1070 iter 95500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.77s
+16543.1s 1071 iter 95600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.46s
+16553.8s 1072 iter 95700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.78s
+16564.6s 1073 iter 95800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.81s
+16575.2s 1074 iter 95900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.54s
+16592.3s 1075 iter 96000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.21s
+16602.7s 1076 iter 96100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.37s
+16613.3s 1077 iter 96200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.43s
+16624.2s 1078 iter 96300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.08s
+16634.6s 1079 iter 96400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.45s
+16645.4s 1080 iter 96500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.60s
+16656.0s 1081 iter 96600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.74s
+16666.7s 1082 iter 96700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.69s
+16677.2s 1083 iter 96800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.38s
+16688.1s 1084 iter 96900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.05s
+16705.3s 1085 iter 97000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.18s
+16715.4s 1086 iter 97100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 9.98s
+16726.3s 1087 iter 97200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.99s
+16736.4s 1088 iter 97300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.17s
+16746.9s 1089 iter 97400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.40s
+16757.8s 1090 iter 97500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.96s
+16768.4s 1091 iter 97600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.61s
+16778.8s 1092 iter 97700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.29s
+16789.8s 1093 iter 97800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.16s
+16800.4s 1094 iter 97900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.51s
+16817.8s 1095 iter 98000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.35s
+16828.2s 1096 iter 98100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.50s
+16838.7s 1097 iter 98200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.56s
+16849.5s 1098 iter 98300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.62s
+16860.2s 1099 iter 98400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.83s
+16870.8s 1100 iter 98500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.57s
+16881.6s 1101 iter 98600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.68s
+16892.2s 1102 iter 98700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.73s
+16902.5s 1103 iter 98800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.26s
+16913.5s 1104 iter 98900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.90s
+16930.4s 1105 iter 99000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.03s
+16941.5s 1106 iter 99100, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 11.08s
+16952.1s 1107 iter 99200, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.52s
+16962.6s 1108 iter 99300, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.62s
+16973.1s 1109 iter 99400, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.57s
+16984.1s 1110 iter 99500, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.75s
+16994.0s 1111 iter 99600, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.05s
+17004.5s 1112 iter 99700, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.49s
+17014.9s 1113 iter 99800, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.28s
+17024.9s 1114 iter 99900, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, time 10.17s
+17042.0s 1115 iter 100000, loss 0.2500, sim_pos 0.5625, sim_neg 0.5625, sim_diff 0.0000, val/pair_auc 0.5000, val/triplet_acc 0.0000, time 17.07s
+17046.8s 1116 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+17046.8s 1117 warn(
+17046.8s 1118 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+17046.8s 1119 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+17047.4s 1120 [NbConvertApp] Writing 119201 bytes to __notebook__.ipynb
+17049.1s 1121 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+17049.1s 1122 warn(
+17049.1s 1123 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+17049.1s 1124 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+17050.0s 1125 [NbConvertApp] Writing 375932 bytes to __results__.html
